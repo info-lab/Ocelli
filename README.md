@@ -1,17 +1,10 @@
-Orthrus
-=======
+Ocelli
+======
 
 Description
 -----------
-A file carver that implements Bifragment Gap Carving[1] through the use of CIRA File Validators.
-Mainly a prototype to test some ideas, it should work in most/all cases but not give forensic-grade 
-logs/analysis.
+Ocelli consists of simple tools for the automatic processing of images:
 
-Name
-----
-According to greek mythology, Orthrus was a two-headed dog, "doublet" (brother) of Cerberus.
-[Read more in Wikipedia](http://en.wikipedia.org/wiki/Orthrus).
-
----
-
-[1] Garfinkel, Simson - "Carving contiguous and fragmented files with fast object validation", 2007
+* *compare.py* walks through two folders and compares every image of the first set against every
+image of the second set, looking for visually similar images. The comparison algorithm is simple,
+but effective.
